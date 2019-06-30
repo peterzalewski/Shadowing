@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		CA1E808422C8083500BE2803 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1E808322C8083500BE2803 /* AppDelegate.swift */; };
-		CA1E808622C8083500BE2803 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1E808522C8083500BE2803 /* ViewController.swift */; };
 		CA1E808922C8083500BE2803 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA1E808722C8083500BE2803 /* Main.storyboard */; };
 		CA1E808B22C8083600BE2803 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA1E808A22C8083600BE2803 /* Assets.xcassets */; };
 		CA1E808E22C8083600BE2803 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA1E808C22C8083600BE2803 /* LaunchScreen.storyboard */; };
+		CA1E809A22C8096E00BE2803 /* 001-Daily_Polish_Listening.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CA1E809622C8096E00BE2803 /* 001-Daily_Polish_Listening.pdf */; };
+		CA1E809B22C8096E00BE2803 /* DPL002.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CA1E809722C8096E00BE2803 /* DPL002.mp3 */; };
+		CA1E809C22C8096E00BE2803 /* DPL001.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CA1E809822C8096E00BE2803 /* DPL001.mp3 */; };
+		CA1E809D22C8096E00BE2803 /* 002-Daily_Polish_Listening.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CA1E809922C8096E00BE2803 /* 002-Daily_Polish_Listening.pdf */; };
+		CA1E80A022C810B500BE2803 /* MediaTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1E809F22C810B500BE2803 /* MediaTarget.swift */; };
+		CAE91CED22C83BB3002DE4EA /* MediaTargetProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE91CEC22C83BB3002DE4EA /* MediaTargetProvider.swift */; };
+		CAE91CEF22C83FAB002DE4EA /* MediaTargetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE91CEE22C83FAB002DE4EA /* MediaTargetTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CA1E808022C8083500BE2803 /* Shadowing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shadowing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA1E808322C8083500BE2803 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CA1E808522C8083500BE2803 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CA1E808822C8083500BE2803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA1E808A22C8083600BE2803 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA1E808D22C8083600BE2803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA1E808F22C8083600BE2803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA1E809622C8096E00BE2803 /* 001-Daily_Polish_Listening.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "001-Daily_Polish_Listening.pdf"; sourceTree = "<group>"; };
+		CA1E809722C8096E00BE2803 /* DPL002.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DPL002.mp3; sourceTree = "<group>"; };
+		CA1E809822C8096E00BE2803 /* DPL001.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DPL001.mp3; sourceTree = "<group>"; };
+		CA1E809922C8096E00BE2803 /* 002-Daily_Polish_Listening.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "002-Daily_Polish_Listening.pdf"; sourceTree = "<group>"; };
+		CA1E809F22C810B500BE2803 /* MediaTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaTarget.swift; sourceTree = "<group>"; };
+		CAE91CEC22C83BB3002DE4EA /* MediaTargetProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaTargetProvider.swift; sourceTree = "<group>"; };
+		CAE91CEE22C83FAB002DE4EA /* MediaTargetTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaTargetTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +66,36 @@
 		CA1E808222C8083500BE2803 /* Shadowing */ = {
 			isa = PBXGroup;
 			children = (
+				CA1E809E22C80AD300BE2803 /* Data */,
+				CA1E809522C8094C00BE2803 /* Content */,
 				CA1E808322C8083500BE2803 /* AppDelegate.swift */,
-				CA1E808522C8083500BE2803 /* ViewController.swift */,
 				CA1E808722C8083500BE2803 /* Main.storyboard */,
 				CA1E808A22C8083600BE2803 /* Assets.xcassets */,
 				CA1E808C22C8083600BE2803 /* LaunchScreen.storyboard */,
 				CA1E808F22C8083600BE2803 /* Info.plist */,
+				CAE91CEE22C83FAB002DE4EA /* MediaTargetTableViewController.swift */,
 			);
 			path = Shadowing;
+			sourceTree = "<group>";
+		};
+		CA1E809522C8094C00BE2803 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				CA1E809622C8096E00BE2803 /* 001-Daily_Polish_Listening.pdf */,
+				CA1E809922C8096E00BE2803 /* 002-Daily_Polish_Listening.pdf */,
+				CA1E809822C8096E00BE2803 /* DPL001.mp3 */,
+				CA1E809722C8096E00BE2803 /* DPL002.mp3 */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		CA1E809E22C80AD300BE2803 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				CA1E809F22C810B500BE2803 /* MediaTarget.swift */,
+				CAE91CEC22C83BB3002DE4EA /* MediaTargetProvider.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +157,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA1E808E22C8083600BE2803 /* LaunchScreen.storyboard in Resources */,
+				CA1E809A22C8096E00BE2803 /* 001-Daily_Polish_Listening.pdf in Resources */,
+				CA1E809B22C8096E00BE2803 /* DPL002.mp3 in Resources */,
+				CA1E809C22C8096E00BE2803 /* DPL001.mp3 in Resources */,
 				CA1E808B22C8083600BE2803 /* Assets.xcassets in Resources */,
+				CA1E809D22C8096E00BE2803 /* 002-Daily_Polish_Listening.pdf in Resources */,
 				CA1E808922C8083500BE2803 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,7 +173,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA1E808622C8083500BE2803 /* ViewController.swift in Sources */,
+				CA1E80A022C810B500BE2803 /* MediaTarget.swift in Sources */,
+				CAE91CEF22C83FAB002DE4EA /* MediaTargetTableViewController.swift in Sources */,
+				CAE91CED22C83BB3002DE4EA /* MediaTargetProvider.swift in Sources */,
 				CA1E808422C8083500BE2803 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
