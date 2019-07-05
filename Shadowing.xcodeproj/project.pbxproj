@@ -18,6 +18,8 @@
 		CA1E80A022C810B500BE2803 /* MediaTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1E809F22C810B500BE2803 /* MediaTarget.swift */; };
 		CAE91CED22C83BB3002DE4EA /* MediaTargetProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE91CEC22C83BB3002DE4EA /* MediaTargetProvider.swift */; };
 		CAE91CEF22C83FAB002DE4EA /* MediaTargetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE91CEE22C83FAB002DE4EA /* MediaTargetTableViewController.swift */; };
+		CAE91CF122C85930002DE4EA /* ID3Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE91CF022C85930002DE4EA /* ID3Tag.swift */; };
+		CAE91CF322C94089002DE4EA /* DPL051.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CAE91CF222C94089002DE4EA /* DPL051.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		CA1E809F22C810B500BE2803 /* MediaTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaTarget.swift; sourceTree = "<group>"; };
 		CAE91CEC22C83BB3002DE4EA /* MediaTargetProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaTargetProvider.swift; sourceTree = "<group>"; };
 		CAE91CEE22C83FAB002DE4EA /* MediaTargetTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaTargetTableViewController.swift; sourceTree = "<group>"; };
+		CAE91CF022C85930002DE4EA /* ID3Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ID3Tag.swift; sourceTree = "<group>"; };
+		CAE91CF222C94089002DE4EA /* DPL051.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DPL051.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,7 @@
 				CA1E809922C8096E00BE2803 /* 002-Daily_Polish_Listening.pdf */,
 				CA1E809822C8096E00BE2803 /* DPL001.mp3 */,
 				CA1E809722C8096E00BE2803 /* DPL002.mp3 */,
+				CAE91CF222C94089002DE4EA /* DPL051.mp3 */,
 			);
 			path = Content;
 			sourceTree = "<group>";
@@ -94,6 +99,7 @@
 			children = (
 				CA1E809F22C810B500BE2803 /* MediaTarget.swift */,
 				CAE91CEC22C83BB3002DE4EA /* MediaTargetProvider.swift */,
+				CAE91CF022C85930002DE4EA /* ID3Tag.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -162,6 +168,7 @@
 				CA1E809C22C8096E00BE2803 /* DPL001.mp3 in Resources */,
 				CA1E808B22C8083600BE2803 /* Assets.xcassets in Resources */,
 				CA1E809D22C8096E00BE2803 /* 002-Daily_Polish_Listening.pdf in Resources */,
+				CAE91CF322C94089002DE4EA /* DPL051.mp3 in Resources */,
 				CA1E808922C8083500BE2803 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -173,6 +180,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAE91CF122C85930002DE4EA /* ID3Tag.swift in Sources */,
 				CA1E80A022C810B500BE2803 /* MediaTarget.swift in Sources */,
 				CAE91CEF22C83FAB002DE4EA /* MediaTargetTableViewController.swift in Sources */,
 				CAE91CED22C83BB3002DE4EA /* MediaTargetProvider.swift in Sources */,

@@ -26,7 +26,8 @@ extension MediaTargetTableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "MediaTarget", for: indexPath)
         let mediaTarget = mediaTargets[indexPath.row]
-        cell.textLabel?.text = mediaTarget.audio.path
+        cell.textLabel?.text = mediaTarget.title ?? mediaTarget.audioLocation.path
+        cell.detailTextLabel?.text = mediaTarget.author
         return cell
     }
 }

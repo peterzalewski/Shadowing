@@ -9,6 +9,8 @@
 import Foundation
 
 struct MediaTarget {
-    var audio: URL!
-    var text: URL!
+    var author: String?
+    var title: String?
+    var audioLocation: URL!
+    var textLocation: URL!
 }

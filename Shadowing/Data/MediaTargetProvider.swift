@@ -12,7 +12,10 @@ class MediaTargetProvider {
     static func localTargets() -> [MediaTarget] {
         if let audioFiles = Bundle.main.urls(forResourcesWithExtension: "mp3", subdirectory: nil) {
             return audioFiles.map {
-                url in return MediaTarget(audio: url, text: url)
+                url in
+                let data = try! Data(contentsOf: url)
+                let id3Tag = ID3Tag.from(data)
+                return MediaTarget(author: id3Tag?[.LeadArtist], title: id3Tag?[.Title], audioLocation: url, textLocation: url)
             }
         }
         return []
